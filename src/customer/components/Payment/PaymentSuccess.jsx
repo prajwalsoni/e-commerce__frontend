@@ -5,8 +5,8 @@ import { Alert, AlertTitle, Box, Grid } from "@mui/material";
 import { deepPurple } from "@mui/material/colors";
 import StarIcon from "@mui/icons-material/Star";
 import { getOrderById } from "../../../Redux/Customers/Order/Action";
-import OrderTraker from "../orders/OrderTraker";
-import AddressCard from "../adreess/AdreessCard";
+import OrderTraker from "../Order/OrderTraker";
+import AddressCard from "../AddressCard/AdreessCard";
 import { useParams } from "react-router-dom";
 
 const PaymentSuccess = () => {

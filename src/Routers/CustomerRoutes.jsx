@@ -1,23 +1,23 @@
 import React from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
-import ProductDetails from "../customer/components/Product/ProductDetails/ProductDetails";
-import Product from "../customer/components/Product/Product/Product";
+import ProductDetails from "../customer/components/Product/ProductCard";
+import Product from "../customer/components/Product/ProductCard";
 import Contact from "../Pages/Contact";
 import TearmsCondition from "../Pages/TearmsCondition";
 import PrivacyPolicy from "../Pages/PrivacyPolicy";
 import About from "../Pages/About";
 import Homepage from "../Pages/Homepage";
-import Navigation from "../customer/components/Navbar/Navigation";
+import Navigation from "../customer/components/Navigation/Navigation";
 import Cart from "../customer/components/Cart/Cart";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import {Button} from "@mui/material";
 import { customTheme, customerTheme } from "../Admin/them/customeThem";
-import Order from "../customer/components/orders/Order";
-import OrderDetails from "../customer/components/orders/OrderDetails";
+import Order from "../customer/components/Order/Order";
+import OrderDetails from "../customer/components/Order/OrderDetails";
 import Checkout from "../customer/components/Checkout/Checkout";
-import Footer from "../customer/components/footer/Footer";
-import PaymentSuccess from "../customer/Components/paymentSuccess/PaymentSuccess";
-import RateProduct from "../customer/components/ReviewProduct/RateProduct";
+import Footer from "../customer/components/Footer/Footer";
+import PaymentSuccess from "../customer/components/Payment/PaymentSuccess";
+import RateProduct from "../customer/components/ProductDetails/ProductReviewCard";
 
 const CustomerRoutes = () => {
     const location = useLocation();
